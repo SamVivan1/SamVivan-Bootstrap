@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="260.92413"
+   height="202.32751"
+   viewBox="0 0 260.92413 202.3275"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo-nobg.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="watermark.png"
+   inkscape:export-xdpi="59.507431"
+   inkscape:export-ydpi="59.507431"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.0484596"
+     inkscape:cx="350.99111"
+     inkscape:cy="76.779306"
+     inkscape:window-width="1536"
+     inkscape:window-height="883"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="light_grad"
+       x1="100"
+       y1="100"
+       x2="300"
+       y2="300"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#7C3AED"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#0891B2"
+         id="stop2" />
+    </linearGradient>
+    <filter
+       id="glow"
+       x="-0.048979592"
+       y="-0.064864865"
+       width="1.0979592"
+       height="1.1297297">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="blur"
+         id="feGaussianBlur2" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="over"
+         id="feComposite2" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#light_grad"
+       id="linearGradient5"
+       gradientUnits="userSpaceOnUse"
+       x1="100"
+       y1="100"
+       x2="300"
+       y2="300" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#light_grad"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="100"
+       y1="100"
+       x2="300"
+       y2="300" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#light_grad"
+       id="linearGradient7"
+       gradientUnits="userSpaceOnUse"
+       x1="100"
+       y1="100"
+       x2="300"
+       y2="300" />
+  </defs>
+  <g
+     filter="url(#glow)"
+     id="g5"
+     transform="translate(-51.533935,-97.673051)">
+    <path
+       d="m 140,110 h 140 l -30,50 H 110 Z"
+       fill="url(#light_grad)"
+       id="path2"
+       style="fill:url(#linearGradient5)" />
+    <path
+       d="m 90,175 h 140 l -30,50 H 60 Z"
+       fill="url(#light_grad)"
+       id="path3"
+       style="fill:url(#linearGradient6)" />
+    <path
+       d="m 150,240 h 140 l -30,50 H 120 Z"
+       fill="url(#light_grad)"
+       id="path4"
+       style="fill:url(#linearGradient7)" />
+    <path
+       d="m 285,105 5,15 15,5 -15,5 -5,15 -5,-15 -15,-5 15,-5 z"
+       fill="#0891b2"
+       id="path5" />
+  </g>
+  <text
+     x="453.2822"
+     y="118.26856"
+     text-anchor="middle"
+     fill="#1e293b"
+     style="font-weight:700;font-size:40px;font-family:monospace;letter-spacing:0.6em;fill:#ffffff;fill-opacity:1"
+     id="text5">SAMVIVAN</text>
+</svg>
