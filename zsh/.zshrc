@@ -116,6 +116,7 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 alias clear="clear && fastfetch"
+alias v='nvim'
 eval "$(zoxide init zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
