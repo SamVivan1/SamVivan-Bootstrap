@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =============================================================================
-# ULTIMATE BOOTSTRAP & DOTFILES INSTALLATION SCRIPT
+# ULTIMATE BOOTSTRAP - DESKTOP EDITION
 # =============================================================================
 
 set -e # Exit on error
@@ -13,14 +13,14 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-echo -e "${BLUE}==> Memulai Ultimate Bootstrap Setup...${NC}"
+echo -e "${BLUE}==> Memulai Ultimate Bootstrap Setup (Desktop Edition)...${NC}"
 
 # 1. Update & Install Nala First
 echo -e "${YELLOW}[1/10] Menginstall Nala untuk manajemen paket yang lebih baik...${NC}"
 sudo apt update && sudo apt install -y nala
 
 # 2. Install System Packages via Nala
-echo -e "${YELLOW}[2/10] Menginstall paket sistem (Dev, Productivity, Entertainment)...${NC}"
+echo -e "${YELLOW}[2/10] Menginstall paket sistem (Dev, Productivity, Entertainment, GUI)...${NC}"
 sudo nala install -y \
     zsh tmux neovim stow curl git wget build-essential cmake jq fzf ripgrep fd-find lsd bat btop fastfetch \
     python3 nodejs npm docker-ce gh nmap aircrack-ng gobuster \
