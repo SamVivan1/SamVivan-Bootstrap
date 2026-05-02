@@ -169,16 +169,22 @@ done
 
 # 10. Symlink Configurations with Stow
 echo -e "${YELLOW}[10/10] Menjalankan Stow...${NC}"
+
+# Dapatkan direktori repository (tempat script ini berada)
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$SCRIPT_DIR"
+
+# Hapus file lama agar stow bisa membuat symlink baru tanpa konflik
+echo -e "${YELLOW}Membersihkan konfigurasi lama di $HOME...${NC}"
 rm -f ~/.zshrc ~/.p10k.zsh ~/.tmux.conf
 rm -rf ~/.config/nvim ~/.config/fastfetch
 mkdir -p ~/.config
 
-# Pindah ke direktori repository
-DOTFILES_DIR=$(pwd)
-stow zsh
-stow tmux
-stow nvim
-stow fastfetch
+# Jalankan stow dengan target ke HOME directory
+stow -v -R -t "$HOME" zsh
+stow -v -R -t "$HOME" tmux
+stow -v -R -t "$HOME" nvim
+stow -v -R -t "$HOME" fastfetch
 
 # Finalize
 echo -e "${BLUE}==> Mengganti default shell ke Zsh...${NC}"
