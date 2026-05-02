@@ -84,7 +84,7 @@ for pkg in $CORE_PACKAGES; do
 done
 
 # Extra CLI Tools
-EXTRA_CLI="python3 nodejs gh nmap aircrack-ng gobuster ffmpeg cmatrix graphviz doxygen lazygit"
+EXTRA_CLI="python3 nodejs gh nmap aircrack-ng gobuster ffmpeg cmatrix graphviz doxygen"
 for pkg in $EXTRA_CLI; do
   install_package "$pkg"
 done
