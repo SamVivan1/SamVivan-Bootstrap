@@ -23,7 +23,7 @@ sudo apt update && sudo apt install -y nala
 echo -e "${YELLOW}[2/7] Menginstall paket sistem (Dev, Terminal Tools)...${NC}"
 sudo apt install -y \
   zsh tmux neovim stow curl git wget build-essential cmake jq fzf ripgrep fd-find lsd bat btop \
-  python3 nodejs npm docker-ce gh nmap aircrack-ng gobuster \
+  python3 docker-ce gh nmap aircrack-ng gobuster \
   ffmpeg cmatrix graphviz doxygen
 
 # 3. Setup Snap Packages (CLI only)
