@@ -78,7 +78,7 @@ fi
 
 # 2. Install System Packages (TUI & CLI Tools Only)
 echo -e "${YELLOW}[2/7] Menginstall paket sistem (Terminal Tools)...${NC}"
-CORE_PACKAGES="zsh tmux neovim stow curl git wget build-essential cmake jq fzf ripgrep fd-find lsd bat btop"
+CORE_PACKAGES="zsh tmux neovim stow curl git wget duf gdu build-essential cmake jq fzf ripgrep fd-find lsd bat btop"
 for pkg in $CORE_PACKAGES; do
   install_package "$pkg"
 done
@@ -138,7 +138,7 @@ fi
 echo -e "${YELLOW}[7/7] Menjalankan Stow...${NC}"
 
 # Dapatkan direktori repository (tempat script ini berada)
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Hapus file lama agar stow bisa membuat symlink baru tanpa konflik
