@@ -78,7 +78,7 @@ fi
 
 # 2. Install System Packages (TUI & CLI Tools Only)
 echo -e "${YELLOW}[2/7] Menginstall paket sistem (Terminal Tools)...${NC}"
-CORE_PACKAGES="zsh tmux neovim stow curl git wget duf gdu build-essential cmake jq fzf ripgrep fd-find lsd bat btop"
+CORE_PACKAGES="zsh tmux neovim stow curl git wget duf gdu unzip build-essential cmake jq fzf ripgrep fd-find lsd bat btop"
 for pkg in $CORE_PACKAGES; do
   install_package "$pkg"
 done
