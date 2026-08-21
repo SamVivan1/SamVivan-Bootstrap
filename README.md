@@ -1,4 +1,4 @@
-# SamVivan-testing
+# SamVivan-Bootstrap
 Ultimate SamVivan Linux Bootstrap
 
 ## Installation
